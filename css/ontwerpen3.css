@@ -1,0 +1,452 @@
+/*
+=========================
+    CSS RESET
+=========================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+
+/*
+=========================
+    GENERAL
+=========================
+*/
+
+
+body {
+  scroll-snap-type: y mandatory;
+  margin: 0;
+  background-color: #11111A;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+aside svg {
+  width: 30%;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3em;
+  line-height: 3em;
+  text-align: center;
+  letter-spacing: 0.4em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #719CC6;;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  line-height: 2.5em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #719CC6;;
+}
+
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.7em;
+  line-height: 2.5em;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1em;
+  line-height: 3em;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #719CC6;;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #fff;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  transform: translate(-50%,0%);
+  left: 50%;
+  bottom: 2%;
+  z-index: 1;
+}
+
+header {
+  width: 100%;
+  align-self: flex-start;
+  padding-top: 4em;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5em;
+  color: #719CC6;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+li:hover, a:hover {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+li {
+  padding: 0.1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0.7em;
+  border-left: 3px solid #719CC6;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background: none;
+  padding: 0;
+  border: none;
+  font: inherit;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:focus {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: #11111A;
+  display: flex;
+  flex-direction: column;
+  width: 45em;
+  max-width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  z-index: 10;
+}
+
+.modal-header {
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-body {
+  padding: 0px 30px 40px 30px;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.close {
+  width: 1em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: blur(2em);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.stars, #starsright {
+  position: fixed;
+}
+
+.nebula {
+  position: fixed;
+}
+
+.panel {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+#kolonisatie, #verbeelding {
+  width: 30%;
+}
+
+.info {
+  margin-top: auto;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#spaceship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  transform: translate(0%,-50%);
+  margin: 0 auto;
+}
+
+#barrelship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  margin: 0 auto;
+}
+
+.cloudnew2, .cloudnew3, .cloudnew8, .cloudnew9, .cloudnew10 {
+  visibility: hidden;
+}
+
+#earth, #moon, #mars, #jupiter, #galaxy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#neptune {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#saturn {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#scrollindicator {
+  height: 60px;
+  width: 40px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+}
+
+#crewdragon {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  height: 100px;
+  width: 100px;
+  transform: translate(0%,-50%);
+  z-index: 1;
+}
+
+#barrel {
+  position: fixed;
+  top: 25%;
+  right: 25%;
+  height: 100px;
+  width: 100px;
+  transform: translate(0%,-50%);
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/*
+=========================
+    COLORS
+=========================
+*/
+.stroke {stroke-linecap: round; stroke-miterlimit: 10;}
+.stroke15 {stroke-width: 1.5;}
+.stroke35 {stroke-width: 3.5;}
+.stroke2 {stroke-width: 2;}
+.stroke3 {stroke-width: 3;}
+.stroke4 {stroke-width: 4;}
+.stroke5 {stroke-width: 5;}
+.stroke6 {stroke-width: 6;}
+.stroke7 {stroke-width: 7;}
+.stroke8 {stroke-width: 8;}
+.stroke10 {stroke-width: 10;}
+.stroke20 {stroke-width: 20;}
+
+.black {fill: #11111A;}
+.sea {fill: #282F5A;}
+.starbright {fill: #B3D1F4;}
+.stardim {fill: #4681BC;}
+.land {fill: #8E9B5F;}
+.landdark {fill: #171723;}
+.landshade {fill: #717A4C;}
+.landshadow {fill: #636247;}
+.sand {fill: #A5B26F;}
+.ice {fill: #AED5ED;}
+.lightorange {fill: #C48300;}
+.lightyellow {fill: #E0B500;}
+.explosion {fill: #E0B500;}
+.grey {fill: #BFBFD8;}
+.darkgrey {fill: #4A4A68;}
+.darkred {fill: #B51F1F;}
+.red {fill: #E52C2C;}
+.darkbrown {fill: #3A2E28;}
+.brown {fill: #59483D;}
+.lightblue {fill: #A1A1D3;}
+.jupiterlight {fill: #FFE4BB;}
+.moonlight {fill: #D0D3DD;}
+.moondark {fill: #B9BCC6;}
+.neptune {fill: #3441CC;}
+.neptunedark {fill: #4061FF;}
+.neptunelight {fill: #2B3BB2;}
+.mars {fill: #EA2424;}
+.marslight {fill: #D85030;}
+.marsdark {fill: #D81D1D;}
+.marscraterdark {fill: #D81D1D;
+  stroke:#D81D1D;}
+.marsyellow {fill: #DD6B2C;}
+.marscraterlight {fill: #EA2424;
+  stroke:#EA2424;}
+.saturn {fill: #F2CE38;}
+.saturnlight {fill: #FFD6A1;}
+.pink {fill: #C11477;}
+.saturnmedium {fill: #D59E45;}
+.saturndark {fill: #D36B46;}
+.cloud {fill: #E1E1E1;
+  opacity: 0.5;}
+
+.ring1 {fill: #11111A;}
+.ring1line {fill: none; stroke: #11111A;}
+.ring2 {fill: #11111A;}
+.ring2line {fill: none; stroke: #11111A;}
+.ring3line {fill: none; stroke: #11111A;}
+.ring4line {fill: none; stroke: #11111A;}
+.ring5line {fill: none; stroke: #11111A;}
+.ring6line {fill: none; stroke: #11111A;}
+.ring7line {fill: none; stroke: #11111A;}
+.ring8line {fill: none; stroke: #11111A;}
+
+.rocket {fill: #BFBFD8; stroke: #BFBFD8; stroke-width: 2; stroke-linecap: round; stroke-miterlimit: 10;}
+.barrel {fill: #59483D; stroke: #59483D; stroke-linecap: round; stroke-miterlimit: 10;}
+.firework {fill: #E52C2C; stroke: #E52C2C; stroke-linecap: round; stroke-miterlimit: 10;}
+.fireworkbottom {fill: #11111A; stroke: #B51F1F; stroke-linecap: round; stroke-miterlimit: 10;}
+.darkbarrel {fill: #3A2E28; stroke: #3A2E28; stroke-linecap: round; stroke-miterlimit: 10;}
+.whiteline {fill: none; stroke: #FFFFFF;}
+.cloudblue {fill: none; stroke: #0C345B;}
+.cloudblack {fill: none; stroke: #1C1C33;}
+.craterlight {fill:none; stroke: #FFFFFF;}
+.craterdark {fill:none; stroke: #B9BCC6;}
+.blackline {fill: none; stroke: #11111A;}
+.moonshadowlight {fill: none; stroke: #D0D3DD;}
+.moonshadowdark {fill: none; stroke: #A1A5B2;}
+.atmosphere {fill:none; stroke: #2B4EAF; opacity: 0.3;}
+.moonmosphere {fill:none; stroke: #FFFFFF; opacity: 0.5;}
+.marscraterhl {fill:none; stroke: #DD6B2C;}
+.marsmosphere {fill:none; stroke: #FF4343; opacity: 0.5;}
+.nepmosphere {fill:none; stroke: #8F9DFF; opacity: 0.5;}
+.satmosphere {fill:none; stroke: #FFC673; opacity: 0.5;}
+.neptunelightline {fill:none; stroke: #4061FF;}
+.greyline {fill: none; stroke: #BFBFD8;}
+.darkgreyline {fill: none; stroke: #4A4A68;}
+.lightyellowline {fill: none; stroke: #F2D34E;}
+.yellowline {fill: none; stroke: #E0B500;}
+.orangeline {fill: none; stroke: #C48300;}
+.pinkline {fill: none; stroke: #C11477;}
+.lightbrownline {fill: none; stroke: #706248;}
+.darkbrownline {fill: none; stroke: #3A2E28;}
+.brownline {fill: none; stroke: #59483D;}
+.saturnline {fill: none; stroke: #D36B46;}
+.jupiterline {fill: none; stroke: #FECC81;}
+.jupmosphere {fill: none; stroke: #FFE4BB; opacity: 0.5;}
+.jupiterlinedark {fill: none; stroke: #EA2424;}
+.jupiterlinedarkest {fill: none; stroke: #D81D1D;}
+.lightredline {fill: none; stroke: #FF5555;}
+.redline {fill: none; stroke: #E52C2C;}
+.darkredline {fill: none; stroke: #B51F1F;}
+.lightblueline {fill: none; stroke: #A1A1D3;}
+.uistroke {fill: none; stroke: #719CC6;}
