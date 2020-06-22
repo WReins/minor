@@ -151,6 +151,10 @@ section.fourth {
   height: 850vh;
 }
 
+section.fifth {
+  height: 120vh;
+}
+
 section.ui img {
   display: block;
   margin: 0 auto;
@@ -223,7 +227,8 @@ header a {
 
 video {
   display: block;
-  width: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 #earth {
