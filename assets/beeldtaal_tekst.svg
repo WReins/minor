@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 583 101" enable-background="new 0 0 583 101" xml:space="preserve">
-<text transform="matrix(1 0 0 1 112.1528 45.3159)"><tspan x="0" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">E</tspan><tspan x="29.76" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">N</tspan><tspan x="75.839" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">DE</tspan><tspan x="145.727" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">R</tspan><tspan x="182.111" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">I</tspan><tspan x="201.502" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">D</tspan><tspan x="241.583" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">ENTI</tspan><tspan x="364.893" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">T</tspan><tspan x="392.876" y="0" font-family="'Futura-Bold'" font-size="48px" letter-spacing="2">EI</tspan><tspan x="442.028" y="0" font-family="'Futura-Bold'" font-size="48px">T</tspan></text>
+	 viewBox="0 0 603.133 101" enable-background="new 0 0 603.133 101" xml:space="preserve">
+<text transform="matrix(1 0 0 1 112.1528 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">E</text>
+<text transform="matrix(1 0 0 1 141.9128 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">N</text>
+<text transform="matrix(1 0 0 1 187.9918 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">DE</text>
+<text transform="matrix(1 0 0 1 257.8798 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">R</text>
+<text transform="matrix(1 0 0 1 294.2638 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">I</text>
+<text transform="matrix(1 0 0 1 313.6548 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">D</text>
+<text transform="matrix(1 0 0 1 353.7358 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">ENTI</text>
+<text transform="matrix(1 0 0 1 477.0458 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">T</text>
+<text transform="matrix(1 0 0 1 505.0288 45.3159)" font-family="'Futura-Bold'" font-size="48px" letter-spacing="1">EI</text>
+<text transform="matrix(1 0 0 1 554.1808 45.3159)" font-family="'Futura-Bold'" font-size="48px">T</text>
 <path fill="#FAA600" d="M4.046,30.049c-0.479,1.237-0.909,2.499-1.293,3.784h27.838c0.814-1.463,1.73-2.812,2.755-4.037
 	c2.156-2.579,4.756-4.567,7.8-5.962s6.425-2.093,10.147-2.093c4.481,0,8.476,1.142,11.986,3.425
 	c2.892,1.882,5.339,4.774,7.342,8.667h7.551l17.26-7.145c-1.752-3.605-3.757-6.828-6.006-9.682H11.675
@@ -19,10 +28,11 @@
 	c-1.819,1.227-3.868,2.115-6.151,2.664c-2.283,0.551-4.651,0.825-7.103,0.825c-4.144,0-7.78-0.698-10.908-2.094
 	c-3.129-1.395-5.751-3.361-7.864-5.897c-1.045-1.253-1.959-2.621-2.745-4.101H2.832c0.381,1.243,0.806,2.462,1.278,3.657
 	c1.954,4.954,4.53,9.344,7.721,13.17h77.79c0.204-0.246,0.412-0.488,0.611-0.741c3.045-3.846,5.455-8.263,7.23-13.254
-	c0.33-0.924,0.63-1.868,0.902-2.832H70.985z"/>
+	c0.33-0.924,0.63-1.868,0.902-2.832C98.364,67.487,70.985,67.487,70.985,67.487z"/>
 <path fill="#BA128F" d="M79.514,93.214c3.832-2.41,7.197-5.381,10.107-8.9H11.83c0.812,0.973,1.661,1.912,2.553,2.812
 	c4.396,4.439,9.659,7.885,15.791,10.337c6.13,2.452,12.916,3.679,20.358,3.679c5.41,0,10.569-0.678,15.474-2.03
 	C70.909,97.76,75.412,95.795,79.514,93.214"/>
 <path fill="#F24712" d="M14.32,14.13c-0.927,0.918-1.807,1.878-2.645,2.876h77.751c-3.395-4.308-7.351-7.765-11.877-10.359
 	C70.022,2.335,61.27,0.179,51.293,0.179c-7.695,0-14.671,1.227-20.928,3.677C24.106,6.31,18.759,9.734,14.32,14.13"/>
+<text transform="matrix(1 0 0 1 115.1528 78.7676)" font-family="'MyriadPro-Regular'" font-size="18px">Op zoek naar de balans tussen vaste sociale regels en vrije uiting.</text>
 </svg>
