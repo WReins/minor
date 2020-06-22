@@ -1,0 +1,364 @@
+/*
+=========================
+    CSS RESET
+=========================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+/*
+=========================
+    GENERAL
+=========================
+*/
+
+
+body {
+  margin: 0;
+  background-color: #FFF;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+header img {
+  width: 100px;
+  padding: 2em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2em;
+  padding: 1em;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
+  color: #000;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 300;
+  color: #000;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+section.panel {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 90%;
+}
+
+section.info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: auto;
+  width: 100%;
+}
+
+section.first img:nth-of-type(1) {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 340px;
+}
+
+section.first img:nth-of-type(2) {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 750px;
+}
+
+section.fifth img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section.seventh img {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+
+
+.images, .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section.second {
+  height: 350vh;
+}
+
+section.third {
+  height: 600vh;
+}
+
+section.fourth {
+  height: 850vh;
+}
+
+section.ui img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8em;
+  width: 90%:
+}
+
+section.mobile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+section.mobile img {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 400px;
+}
+
+section.teaser {
+  height: 60vh;
+}
+
+section.vehicles {
+  display: flex;
+
+}
+
+.images img {
+  width: 30%;
+  padding: 1em;
+}
+
+.cards img {
+  width: 20%;
+  padding: 1em;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5em 2em;
+}
+
+.expo a, .eighth a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+  width: 300px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #9966ff;
+  border: 1px solid #9966ff;
+}
+
+header a {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #9966ff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9em;
+  margin: 0 auto;
+}
+
+#earth {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#crewdragon {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#barrel {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.cloudnew2, .cloudnew3, .cloudnew8, .cloudnew9, .cloudnew10 {
+  visibility: hidden;
+}
+
+
+
+/*
+=========================
+    COLORS
+=========================
+*/
+.stroke {stroke-linecap: round; stroke-miterlimit: 10;}
+.stroke15 {stroke-width: 1.5;}
+.stroke35 {stroke-width: 3.5;}
+.stroke2 {stroke-width: 2;}
+.stroke3 {stroke-width: 3;}
+.stroke4 {stroke-width: 4;}
+.stroke5 {stroke-width: 5;}
+.stroke6 {stroke-width: 6;}
+.stroke7 {stroke-width: 7;}
+.stroke8 {stroke-width: 8;}
+.stroke10 {stroke-width: 10;}
+.stroke20 {stroke-width: 20;}
+
+.black {fill: #11111A;}
+.sea {fill: #282F5A;}
+.starbright {fill: #B3D1F4;}
+.stardim {fill: #4681BC;}
+.land {fill: #8E9B5F;}
+.landdark {fill: #171723;}
+.landshade {fill: #717A4C;}
+.landshadow {fill: #636247;}
+.sand {fill: #A5B26F;}
+.ice {fill: #AED5ED;}
+.lightorange {fill: #C48300;}
+.lightyellow {fill: #E0B500;}
+.explosion {fill: #E0B500;}
+.grey {fill: #BFBFD8;}
+.darkgrey {fill: #4A4A68;}
+.darkred {fill: #B51F1F;}
+.red {fill: #E52C2C;}
+.darkbrown {fill: #3A2E28;}
+.brown {fill: #59483D;}
+.lightblue {fill: #A1A1D3;}
+.jupiterlight {fill: #FFE4BB;}
+.moonlight {fill: #D0D3DD;}
+.moondark {fill: #B9BCC6;}
+.neptune {fill: #3441CC;}
+.neptunedark {fill: #4061FF;}
+.neptunelight {fill: #2B3BB2;}
+.mars {fill: #EA2424;}
+.marslight {fill: #D85030;}
+.marsdark {fill: #D81D1D;}
+.marscraterdark {fill: #D81D1D;
+  stroke:#D81D1D;}
+.marsyellow {fill: #DD6B2C;}
+.marscraterlight {fill: #EA2424;
+  stroke:#EA2424;}
+.saturn {fill: #F2CE38;}
+.saturnlight {fill: #FFD6A1;}
+.pink {fill: #C11477;}
+.saturnmedium {fill: #D59E45;}
+.saturndark {fill: #D36B46;}
+.cloud {fill: #E1E1E1;
+  opacity: 0.5;}
+
+.ring1 {fill: #11111A;}
+.ring1line {fill: none; stroke: #11111A;}
+.ring2 {fill: #11111A;}
+.ring2line {fill: none; stroke: #11111A;}
+.ring3line {fill: none; stroke: #11111A;}
+.ring4line {fill: none; stroke: #11111A;}
+.ring5line {fill: none; stroke: #11111A;}
+.ring6line {fill: none; stroke: #11111A;}
+.ring7line {fill: none; stroke: #11111A;}
+.ring8line {fill: none; stroke: #11111A;}
+
+.rocket {fill: #BFBFD8; stroke: #BFBFD8; stroke-width: 2; stroke-linecap: round; stroke-miterlimit: 10;}
+.barrel {fill: #59483D; stroke: #59483D; stroke-linecap: round; stroke-miterlimit: 10;}
+.firework {fill: #E52C2C; stroke: #E52C2C; stroke-linecap: round; stroke-miterlimit: 10;}
+.fireworkbottom {fill: #11111A; stroke: #B51F1F; stroke-linecap: round; stroke-miterlimit: 10;}
+.darkbarrel {fill: #3A2E28; stroke: #3A2E28; stroke-linecap: round; stroke-miterlimit: 10;}
+.whiteline {fill: none; stroke: #FFFFFF;}
+.cloudblue {fill: none; stroke: #0C345B;}
+.cloudblack {fill: none; stroke: #1C1C33;}
+.craterlight {fill:none; stroke: #FFFFFF;}
+.craterdark {fill:none; stroke: #B9BCC6;}
+.blackline {fill: none; stroke: #11111A;}
+.moonshadowlight {fill: none; stroke: #D0D3DD;}
+.moonshadowdark {fill: none; stroke: #A1A5B2;}
+.atmosphere {fill:none; stroke: #2B4EAF; opacity: 0.3;}
+.moonmosphere {fill:none; stroke: #FFFFFF; opacity: 0.5;}
+.marscraterhl {fill:none; stroke: #DD6B2C;}
+.marsmosphere {fill:none; stroke: #FF4343; opacity: 0.5;}
+.nepmosphere {fill:none; stroke: #8F9DFF; opacity: 0.5;}
+.satmosphere {fill:none; stroke: #FFC673; opacity: 0.5;}
+.neptunelightline {fill:none; stroke: #4061FF;}
+.greyline {fill: none; stroke: #BFBFD8;}
+.darkgreyline {fill: none; stroke: #4A4A68;}
+.lightyellowline {fill: none; stroke: #F2D34E;}
+.yellowline {fill: none; stroke: #E0B500;}
+.orangeline {fill: none; stroke: #C48300;}
+.pinkline {fill: none; stroke: #C11477;}
+.lightbrownline {fill: none; stroke: #706248;}
+.darkbrownline {fill: none; stroke: #3A2E28;}
+.brownline {fill: none; stroke: #59483D;}
+.saturnline {fill: none; stroke: #D36B46;}
+.jupiterline {fill: none; stroke: #FECC81;}
+.jupmosphere {fill: none; stroke: #FFE4BB; opacity: 0.5;}
+.jupiterlinedark {fill: none; stroke: #EA2424;}
+.jupiterlinedarkest {fill: none; stroke: #D81D1D;}
+.lightredline {fill: none; stroke: #FF5555;}
+.redline {fill: none; stroke: #E52C2C;}
+.darkredline {fill: none; stroke: #B51F1F;}
+.lightblueline {fill: none; stroke: #A1A1D3;}
+.uistroke {fill: none; stroke: #719CC6;}
