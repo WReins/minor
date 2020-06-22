@@ -131,7 +131,6 @@ section.seventh img {
   width: 900px;
 }
 
-
 .images, .cards {
   display: flex;
   flex-direction: row;
@@ -228,7 +227,6 @@ header a {
 video {
   display: block;
   width: 80%;
-  height: 80%;
 }
 
 #earth {
